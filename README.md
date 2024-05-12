@@ -9,4 +9,4 @@ qrcodes_Api
 
 - Open a terminal and type the command "npm install'. This command installs a package and any packages that it depends on for this project.
 
--This project doesn't have a Front-End part except for the login.html and MainPage.html pages.
+ -This project doesn't have a Front-End part except for the login.html and MainPage.html pages.
