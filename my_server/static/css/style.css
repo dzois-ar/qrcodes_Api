@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(224, 207, 207);
+}
+
+h1 {
+    text-align: center;
+}
+
+.MenuButtons {
+    height: 25%;
+    width: auto;
+    margin: 50px;
+    padding: 30px;
+    border: 2px solid rgb(120, 66, 66);
+    border-radius: 10%;
+    font-size: 20px;
+    color: rgb(120, 66, 66);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Mainbtns {
+    width:fit-content;
+    margin: auto;
+
+}
+
+form {
+    width: 300px;
+    background-color: #ffffff; 
+    padding: 50px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #dc91cc; 
+    border-radius: 5px; 
+}
+
+.mybuttonstyle{
+    background-color: rgb(120, 66, 66);
+    color: white;
+}
+
+
+
+.user-info {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#UserNameDisplay {
+    margin-right: 10px;
+    color: #040404;
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+.logout-button {
+    background-color: #f44336; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f; 
+}
+
+#navtable{
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    float: right;
+    color :rgb(120, 66, 66);
+}
+ 
+.CarLogo{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+}
